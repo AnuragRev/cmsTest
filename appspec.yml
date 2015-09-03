@@ -6,8 +6,8 @@ files:
 permissions:
    - object: /home/deploy
      pattern: "**"
-     owner: root
-     group: root
+     owner: ubuntu
+     group: ubuntu
      mode: 755
      type:
        - file
