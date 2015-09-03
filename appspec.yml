@@ -3,11 +3,3 @@ os: linux
 files:
    - source: /
      destination: /home/deploy
-permissions:
-   - object: /home/deploy
-     pattern: "**"
-     owner: ubuntu
-     group: ubuntu
-     mode: 755
-     type:
-       - file
