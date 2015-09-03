@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /home/deploy
+permissions:
+   - object: /home/deploy
+     pattern: "**"
+     owner: root
+     group: root
+     mode: 755
+     type:
+       - file
+hooks:
+   BeforeInstall:
+    - location: scripts/Bi.sh
+      runas: root
+   AfterInstall:
+    - location: scripts/Ai.sh
+      runas: root
