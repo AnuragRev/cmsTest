@@ -5,6 +5,6 @@
 	<title>Testing Push</title>
 </head>
 <body>
-	Testing 2
+	Testing
 </body>
 </html>
