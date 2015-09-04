@@ -5,4 +5,6 @@ $output = `sudo git pull https://github.com/AnuragRev/cmsTest.git`;
 
 print_r($output);
 
+mail('anurag@revinfotech.com','hello','hello');
+
 ?>
