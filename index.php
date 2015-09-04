@@ -5,6 +5,6 @@
 	<title>Testing Push</title>
 </head>
 <body>
-	seniqwa
+	stesting
 </body>
 </html>
