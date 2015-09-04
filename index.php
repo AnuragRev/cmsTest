@@ -5,6 +5,6 @@
 	<title>Testing Push</title>
 </head>
 <body>
-	Testing asd sad sad as dsa d
+	Testing
 </body>
 </html>
